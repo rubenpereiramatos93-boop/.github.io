@@ -1,27 +1,121 @@
 <!DOCTYPE html>
-
 <html lang="fr">
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-         <meta name="description" content="Portfolio de Ruben Pereira-Matos - BTS SIO SISR">
-        <meta name="author" content="Ruben Pereira-Matos">
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
         <title>Portfolio de Ruben Pereira-Matos (BTS SIO 2026)</title>
+
         <link rel="icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
+
     <body>
-         <h1>Bonjour et bienvenu sur mon portfolio !</h1>
 
-        <!-- Optional JavaScript; choose one of the two! -->
+        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+            <div class="container">
 
-        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+                <button type="button" class="navbar-toggler"
+                        data-toggle="collapse"
+                        data-target="#navbar"
+                        aria-controls="navbar"
+                        aria-expanded="false">
+
+                    <span class="sr-only">Navigation raccourcie</span>☰
+
+                </button>
+
+                <a class="navbar-brand" href="#">Mon portfolio</a>
+
+                <div id="navbar" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">
+                                <span class="fa fa-home"></span> Accueil
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="cv.html" class="nav-link">
+                                <span class="fa fa-id-badge"></span> CV
+                            </a>
+                        </li>
+
+                        <li class="dropdown nav-item">
+
+                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+
+                                <span class="fa fa-list-alt"></span> Réalisations
+
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                <li class="dropdown-header">En autonomie</li>
+
+                                <li class="dropdown-item"><a href="#">Application Android</a></li>
+
+                                <li class="dropdown-item"><a href="#">Site web</a></li>
+
+                                <li class="dropdown-item"><a href="#">Études et analyses</a></li>
+
+                                <div class="dropdown-divider"></div>
+
+                                <li class="dropdown-header">En entreprise</li>
+
+                                <li class="dropdown-item"><a href="#">Projet 1ère année</a></li>
+
+                                <li class="dropdown-item"><a href="#">Projet 2ème année</a></li>
+
+                            </ul>
+
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a href="#" class="dropdown-toggle nav-link"
+                               data-toggle="dropdown" role="button">
+                                <span class="fa fa-graduation-cap"></span> Jury E6 BTS SIO
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="dropdown-header dropdown-item" role="presentation">
+                                    Documents communs</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Contexte</a></li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Cahier des charges</a></li>
+                                <li role="presentation" class="dropdown-divider"></li>
+                                <li role="presentation" class="dropdown-header dropdown-item">Ateliers</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Atelier n°1</a></li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Atelier n°2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><span class="fa fa-envelope"></span> Me contacter
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="container" style="margin-top:80px;">
+            <h1>Bonjour et bienvenue sur mon portfolio !</h1>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
     </body>
 </html>
