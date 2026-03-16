@@ -1,0 +1,48 @@
+body { /* pour définir une marge du haut */
+    padding-top: 50px;
+}
+.cadreCV { /* pour ajouter un cadre blanc */
+    padding-bottom: 15px;
+    background: white;
+}
+
+/****************************************
+*	En-tête du CV
+****************************************/
+#cv-entete { /* pour définir les caractéristiques de la zone d'entête '*/
+    margin-top: -45px;
+    width: 100%;
+}
+#cv-photo { /* pour définir les caractéristiques de la zone de la photo */
+    width:	172px;
+    height:	172px;
+    border-radius:	50%;
+    overflow:	hidden;
+    padding: 5px;
+    background: #eee;
+    display: inline-block;
+}
+#cv-photo img { /* pour définir les caractéristiques de la photo elle-même */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+#cv-intro h1 { /* pour définir les caractéristiques de la phrase d'introduction */
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+#cv-intro h1 span { /* pour avoir certains mots en rouge dans l'intro */
+    color: rgb(226,0,26);
+}
+#cv-intro::after {
+    background: url('images/ligne.png'); /* pour afficher la ligne de séparation */
+    width: 100%;
+    height: 3px;
+    margin-top: 15px;
+    content: '';
+    display: block;
+}
+
